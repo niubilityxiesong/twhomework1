@@ -19,7 +19,6 @@ function count_same_elements(collection) {
   tempMap.key = collection[collection.length - 1][0];
   tempMap.count = parseInt(collection[collection.length - 1][2]);
   result.push(tempMap);
-  console.log(result);
   return result;
 }
 
