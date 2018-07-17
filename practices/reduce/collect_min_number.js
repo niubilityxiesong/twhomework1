@@ -2,7 +2,7 @@
 
 function collect_min_number(collection) {
   //在这里写入代码
-  collection.sort();
+  collection.sort((a, b) => a - b);
   return collection[0];
 }
 
